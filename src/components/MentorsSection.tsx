@@ -37,7 +37,7 @@ const MentorsSection: React.FC = () => {
       <h3 className="text-2xl font-semibold text-gray-700 mb-8">
         So We’ve Got The <span className="text-blue-500">Best Mentors</span> For You.
       </h3>
-      <div className="flex space-x-6 justify-center">
+      <div className="flex flex-col sm:flex-row sm:space-x-6 space-y-6 sm:space-y-0 justify-center">
         <MentorCard
           name="Vikas Shukla"
           backgroundColor="#00C2CB"
